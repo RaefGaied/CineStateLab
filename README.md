@@ -151,19 +151,18 @@ const useMovieStore = create((set, get) => ({
 ```
 
 ---
-
 ## 📸 Vues du Projet
 
 ### Context API Implementation
-![Context API View](film_context_view.png)
+![Context API View](screenshots/film_context_view.png)
 *L'implémentation native de React avec Context API et useReducer. Idéale pour les petites applications.*
 
 ### Redux Toolkit Implementation  
-![Redux Toolkit View](film_redux_view.png)
+![Redux Toolkit View](screenshots/film_redux_view.png)
 *La version Redux Toolkit avec DevTools intégrés. Parfaite pour les applications complexes et scalables.*
 
 ### Zustand Implementation
-![Zustand View](film_zustand_view.png)
+![Zustand View](screenshots/film_zustand_view.png)
 *L'approche minimaliste avec Zustand. Rapide, simple et performante pour la plupart des projets.*
 
 ---
