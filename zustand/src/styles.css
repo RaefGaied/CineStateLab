@@ -1,0 +1,4 @@
+/* Import shared styles */
+@import '../../shared/styles.css';
+
+/* Additional styles specific to Zustand version */

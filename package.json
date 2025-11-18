@@ -1,0 +1,26 @@
+{
+    "name": "cinestatelab",
+    "version": "1.0.0",
+    "description": "Comparatif des solutions de gestion d'état React : Context API vs Redux Toolkit vs Zustand",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run dev:context\" \"npm run dev:redux\" \"npm run dev:zustand\"",
+        "dev:context": "cd context && npm start",
+        "dev:redux": "cd redux && npm start",
+        "dev:zustand": "cd zustand && npm start",
+        "install:all": "npm install && cd context && npm install && cd ../redux && npm install && cd ../zustand && npm install"
+    },
+    "keywords": [
+        "react",
+        "state-management",
+        "context",
+        "redux",
+        "zustand",
+        "comparison"
+    ],
+    "author": "Raef Gaied",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

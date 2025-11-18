@@ -1,0 +1,18 @@
+/* Import shared styles */
+@import '../../shared/styles.css';
+
+/* Additional styles specific to Context API version */
+.genre-tag {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.movie-genres {
+    margin-top: 8px;
+}
