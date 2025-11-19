@@ -1,8 +1,8 @@
-# 🎬 CineStateLab - React State Management Comparison
+# CineStateLab - React State Management Comparison
 
 > Une application de découverte de films implémentée avec trois approches de gestion d'état différentes pour comparer leurs forces et faiblesses.
 
-## 📋 Table des matières
+## Table des matières
 
 - [Introduction](#introduction)
 - [Comparatif des Solutions](#comparatif-des-solutions)
@@ -12,7 +12,7 @@
 
 ---
 
-## 🎯 Introduction
+## Introduction
 
 **CineStateLab** est un projet de démonstration qui explore trois approches populaires de gestion d'état dans l'écosystème React :
 
@@ -24,16 +24,16 @@ L'application permet de découvrir des films via l'API TMDB, avec des fonctionna
 
 ### Fonctionnalités Principales
 
-- 🔍 **Recherche de films** en temps réel
-- 🎭 **Filtrage par genre** avec menu déroulant
-- ⭐ **Gestion des favoris** avec persistance locale
-- 📊 **Statistiques dynamiques** (films trouvés, favoris, note moyenne)
-- 📱 **Design responsive** avec sidebar fixe sur desktop
-- 🎨 **Interface moderne** avec animations et transitions fluides
+- **Recherche de films** en temps réel
+- **Filtrage par genre** avec menu déroulant
+- **Gestion des favoris** avec persistance locale
+- **Statistiques dynamiques** (films trouvés, favoris, note moyenne)
+- **Design responsive** avec sidebar fixe sur desktop
+- **Interface moderne** avec animations et transitions fluides
 
 ---
 
-## ⚖️ Comparatif des Solutions
+## Comparatif des Solutions
 
 | Critère | Context API | Redux Toolkit | Zustand |
 |---------|-------------|---------------|---------|
@@ -48,7 +48,7 @@ L'application permet de découvrir des films via l'API TMDB, avec des fonctionna
 | **DevTools** | Intégrés | Excellents | Bonnes |
 | **Testabilité** | ⭐⭐⭐ Moyenne | ⭐⭐⭐⭐⭐ Excellente | ⭐⭐⭐⭐ Bonne |
 
-### 🎯 Recommandations par Taille de Projet
+### Recommandations par Taille de Projet
 
 - **Petits projets (< 5 composants)** : Context API
 - **Projets moyens (5-20 composants)** : Zustand
@@ -56,7 +56,7 @@ L'application permet de découvrir des films via l'API TMDB, avec des fonctionna
 
 ---
 
-## 🛠️ Implémentation
+##  Implémentation
 
 ### Architecture du Projet
 
@@ -69,7 +69,7 @@ CineStateLab/
 └── README.md
 ```
 
-### 🎬 Fonctionnalités Implémentées
+### Fonctionnalités Implémentées
 
 #### 1. Interface Utilisateur
 - **Header** avec badge d'identification de la solution
@@ -151,7 +151,7 @@ const useMovieStore = create((set, get) => ({
 ```
 
 ---
-## 📸 Vues du Projet
+## Vues du Projet
 
 ### Context API Implementation
 ![Context API View](screenshots/film_context_view.png)
@@ -167,46 +167,46 @@ const useMovieStore = create((set, get) => ({
 
 ---
 
-## 🏆 Conclusion
+##  Conclusion
 
 ### Points Forts par Solution
 
-#### 🎯 Context API
-- ✅ **Intégré nativement** - Pas de dépendances externes
-- ✅ **Simple à apprendre** - Concepts React familiers
-- ✅ **Idéal pour débuter** - Parfait pour les petits projets
-- ❌ **Performance limitée** - Re-renders fréquents
-- ❌ **Peu scalable** - Difficile à maintenir sur gros projets
+#### Context API
+- **Intégré nativement** - Pas de dépendances externes
+- **Simple à apprendre** - Concepts React familiers
+- **Idéal pour débuter** - Parfait pour les petits projets
+- **Performance limitée** - Re-renders fréquents
+- **Peu scalable** - Difficile à maintenir sur gros projets
 
-#### ⚡ Redux Toolkit
-- ✅ **DevTools excellents** - Time-travel debugging
-- ✅ **Très scalable** - Architecture éprouvée
-- ✅ **Écosystème riche** - Middleware, plugins
-- ✅ **Testabilité** - Tests unitaires facilités
-- ❌ **Complexité élevée** - Courbe d'apprentissage steep
-- ❌ **Boilerplate** - Plus de code initial
+#### Redux Toolkit
+- **DevTools excellents** - Time-travel debugging
+- **Très scalable** - Architecture éprouvée
+- **Écosystème riche** - Middleware, plugins
+- **Testabilité** - Tests unitaires facilités
+- **Complexité élevée** - Courbe d'apprentissage steep
+- **Boilerplate** - Plus de code initial
 
-#### 🚀 Zustand
-- ✅ **Minimaliste** - API simple et concise
-- ✅ **Performant** - Re-renders optimisés
-- ✅ **TypeScript friendly** - Excellent support TS
-- ✅ **Flexible** - S'adapte à tous les besoins
-- ❌ **Moins mature** - Écosystème plus réduit
-- ❌ **Moins structuré** - Nécessite discipline
+#### Zustand
+- **Minimaliste** - API simple et concise
+- **Performant** - Re-renders optimisés
+- **TypeScript friendly** - Excellent support TS
+- **Flexible** - S'adapte à tous les besoins
+- **Moins mature** - Écosystème plus réduit
+- **Moins structuré** - Nécessite discipline
 
-### 🎯 Quelle Solution Choisir ?
+### Quelle Solution Choisir ?
 
 - **Pour un projet personnel ou prototype** : **Zustand**
 - **Pour une application entreprise** : **Redux Toolkit**  
 - **Pour un composant isolé** : **Context API**
 
-### 📊 Verdict Final
+### Verdict Final
 
 CineStateLab démontre qu'il n'y a pas de "meilleure" solution absolue, mais plutôt **la solution adaptée à chaque contexte**. Zustand offre le meilleur compromis simplicité-performance pour la plupart des projets modernes, tandis que Redux Toolkit reste le choix industriel pour les applications critiques nécessitant une structure robuste.
 
 ---
 
-## 🚀 Démarrage Rapide
+## Démarrage Rapide
 
 ```bash
 # Cloner le projet
@@ -224,7 +224,7 @@ npm run dev:zustand   # http://localhost:5175
 
 ---
 
-## 📝 License
+## License
 
 MIT License - Fait avec ❤️ pour la communauté React
 
