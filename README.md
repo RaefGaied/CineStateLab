@@ -38,15 +38,15 @@ L'application permet de découvrir des films via l'API TMDB, avec des fonctionna
 | Critère | Context API | Redux Toolkit | Zustand |
 |---------|-------------|---------------|---------|
 | **Architecture** | Provider + Consumer | Store + Slices + Thunks | Store atomique |
-| **Complexité** | ⭐⭐ Simple | ⭐⭐⭐⭐ Modérée | ⭐ Très simple |
-| **Performance** | ⭐⭐⭐ Bonne | ⭐⭐⭐⭐ Excellente | ⭐⭐⭐⭐⭐ Optimale |
+| **Complexité** |  Simple | Modérée | Très simple |
+| **Performance** | Bonne |  Excellente | Optimale |
 | **API** | `useContext`, `useReducer` | `createSlice`, `createAsyncThunk` | `create`, `subscribe` |
 | **Cas d'usage idéal** | Petites à moyennes applications | Applications complexes et scalables | Applications rapides et simples |
-| **Learning curve** | ⭐ Faible | ⭐⭐⭐ Élevée | ⭐ Très faible |
-| **Scalabilité** | ⭐⭐ Limitée | ⭐⭐⭐⭐⭐ Excellente | ⭐⭐⭐⭐ Bonne |
+| **Learning curve** | Faible | Élevée | Très faible |
+| **Scalabilité** | Limitée | Excellente |  Bonne |
 | **Boilerplate** | Minimal | Modéré | Minimal |
 | **DevTools** | Intégrés | Excellents | Bonnes |
-| **Testabilité** | ⭐⭐⭐ Moyenne | ⭐⭐⭐⭐⭐ Excellente | ⭐⭐⭐⭐ Bonne |
+| **Testabilité** | Moyenne | Excellente | Bonne |
 
 ### Recommandations par Taille de Projet
 
