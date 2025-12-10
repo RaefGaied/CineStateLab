@@ -224,10 +224,4 @@ npm run dev:zustand   # http://localhost:5175
 
 ---
 
-## License
-
-MIT License - Fait avec ❤️ pour la communauté React
-
----
-
 *Créé par [Raef Gaied] - Exploration des patterns de gestion d'état dans React*
